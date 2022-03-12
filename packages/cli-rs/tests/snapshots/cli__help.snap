@@ -1,0 +1,23 @@
+---
+source: tests/cli.rs
+assertion_line: 16
+expression: "String::from_utf8(output.stdout).unwrap()"
+---
+import-meta-env 0.1.5
+Populates your environment variables from the system or `.env` file
+
+USAGE:
+    import-meta-env [OPTIONS] --example <EXAMPLE>
+
+OPTIONS:
+        --disposable            Do not create backup files and restore from backup files. In local
+                                development, disable this option to avoid rebuilding the project
+                                when environment variable changes, In production, enable this option
+                                to avoid generating unnecessary backup files
+    -e, --env <ENV>             The .env file path to load [default: .env]
+    -h, --help                  Print help information
+    -o, --output <OUTPUT>...    The output globs to populate (in-place) [default: dist/**/*
+                                .next/**/* .nuxt/**/* .output/**/* build/**/*]
+    -V, --version               Print version information
+    -x, --example <EXAMPLE>     The .env example file path to load
+
