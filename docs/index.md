@@ -8,7 +8,7 @@ features:
   - title: Strict
     details: Code has no access to arbitrary environment variables by default.
   - title: Cross-platform
-    details: Populate your environment variables anywhere, such as the Alpine Linux nginx image. Powered by pkg.
+    details: The CLI is developed using Rust. You can populate environment variables anywhere, such as the Alpine Linux nginx image.
   - title: Learn Once, Write Anywhere
     details: Vite, Webpack and Rollup, CSR, SSR and SSG, Jest and Mocha, etc. are all supported.
 footer: MIT Licensed | Copyright © 2021-present Ernest
