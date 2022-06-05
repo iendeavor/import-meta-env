@@ -242,14 +242,14 @@ jobs:
   docs:
     name: "docs"
 
-    if: github.ref_name == 'main'
+    if: github.ref_name == 'build/bump-pnpm'
 
-    needs:
-      - import-meta-env
-      - docker-examples
-      - pnpm-examples
-      - yarn-examples
-      - compatibility-examples
+    # needs:
+    #   - import-meta-env
+    #   - docker-examples
+    #   - pnpm-examples
+    #   - yarn-examples
+    #   - compatibility-examples
 
     runs-on: ubuntu-latest
 
