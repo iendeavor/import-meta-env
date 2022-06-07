@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as a,a as n}from"./app.4c472213.js";const y='{"title":"Import-meta-env","description":"","frontmatter":{},"headers":[{"level":2,"title":"How it Works","slug":"how-it-works"}],"relativePath":"index.md"}',o={name:"index.md"},t=n("",13),l=[t];function p(r,i,c,d,m,h){return a(),s("div",null,l)}var D=e(o,[["render",p]]);export{y as __pageData,D as default};
